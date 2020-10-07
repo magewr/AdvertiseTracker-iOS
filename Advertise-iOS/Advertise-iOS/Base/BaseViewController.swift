@@ -17,6 +17,7 @@ class BaseViewController: UIViewController, AdvertiseEventTrackerDataSource {
     
     deinit {
         disposeBag = DisposeBag()
+        advertiseTracker.deinitialize()
     }
     
     func getTracker() -> AdvertiseAnalyticsTrackerDelegate {

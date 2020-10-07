@@ -16,8 +16,6 @@
 		CB5CABE9252D349200F5330C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5CABE7252D349200F5330C /* Main.storyboard */; };
 		CB5CABEB252D349200F5330C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5CABEA252D349200F5330C /* Assets.xcassets */; };
 		CB5CABEE252D349200F5330C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5CABEC252D349200F5330C /* LaunchScreen.storyboard */; };
-		CB5CABF9252D349200F5330C /* Advertise_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5CABF8252D349200F5330C /* Advertise_iOSTests.swift */; };
-		CB5CAC04252D349200F5330C /* Advertise_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5CAC03252D349200F5330C /* Advertise_iOSUITests.swift */; };
 		CB5CAC2C252D35CA00F5330C /* AdvertiseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5CAC2B252D35CA00F5330C /* AdvertiseTracker.swift */; };
 		CB5CAC35252D361800F5330C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5CAC34252D361800F5330C /* Extensions.swift */; };
 		CB5CAC3A252D368900F5330C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5CAC39252D368900F5330C /* Enums.swift */; };
@@ -58,11 +56,7 @@
 		CB5CABED252D349200F5330C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB5CABEF252D349200F5330C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB5CABF4252D349200F5330C /* Advertise-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advertise-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB5CABF8252D349200F5330C /* Advertise_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertise_iOSTests.swift; sourceTree = "<group>"; };
-		CB5CABFA252D349200F5330C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB5CABFF252D349200F5330C /* Advertise-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advertise-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB5CAC03252D349200F5330C /* Advertise_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertise_iOSUITests.swift; sourceTree = "<group>"; };
-		CB5CAC05252D349200F5330C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB5CAC2B252D35CA00F5330C /* AdvertiseTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseTracker.swift; sourceTree = "<group>"; };
 		CB5CAC34252D361800F5330C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CB5CAC39252D368900F5330C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
@@ -117,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				CB5CABE0252D349200F5330C /* Advertise-iOS */,
-				CB5CABF7252D349200F5330C /* Advertise-iOSTests */,
-				CB5CAC02252D349200F5330C /* Advertise-iOSUITests */,
 				CB5CABDF252D349200F5330C /* Products */,
 				FB6A102787556895ACC27EF2 /* Pods */,
 				6542BBA5B2D7F2AFDB0FCFEA /* Frameworks */,
@@ -150,24 +142,6 @@
 				CB5CABEF252D349200F5330C /* Info.plist */,
 			);
 			path = "Advertise-iOS";
-			sourceTree = "<group>";
-		};
-		CB5CABF7252D349200F5330C /* Advertise-iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				CB5CABF8252D349200F5330C /* Advertise_iOSTests.swift */,
-				CB5CABFA252D349200F5330C /* Info.plist */,
-			);
-			path = "Advertise-iOSTests";
-			sourceTree = "<group>";
-		};
-		CB5CAC02252D349200F5330C /* Advertise-iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CB5CAC03252D349200F5330C /* Advertise_iOSUITests.swift */,
-				CB5CAC05252D349200F5330C /* Info.plist */,
-			);
-			path = "Advertise-iOSUITests";
 			sourceTree = "<group>";
 		};
 		CB5CAC29252D358000F5330C /* Scenes */ = {
@@ -480,7 +454,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB5CABF9252D349200F5330C /* Advertise_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +461,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB5CAC04252D349200F5330C /* Advertise_iOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
