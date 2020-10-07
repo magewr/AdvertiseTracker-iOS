@@ -1,0 +1,6 @@
+framework module Pods_Advertise_iOS_Advertise_iOSUITests {
+  umbrella header "Pods-Advertise-iOS-Advertise-iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
