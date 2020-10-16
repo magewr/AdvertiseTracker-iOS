@@ -18,3 +18,5 @@
 2. Vertical TableView 안에 TableViewCell 안에 Horizontal TableView 안에 TableViewCell 형식으로 광고가 보여지는 경우 (상하 스크롤 안에 좌우 스크롤 광고)
 
 이벤트 트래킹은 Rx로 구현되었으며 ViewController의 생명주기에 맞추기 위해 Disposable로 제공하여 ViewController의 DisposeBag을 이용하도록 구현하였습니다.
+
+> [클래스 바로가기](https://github.com/magewr/AdvertiseTracker-iOS/blob/main/Advertise-iOS/Advertise-iOS/AdvertiseTracker/AdvertiseTracker.swift)
