@@ -56,6 +56,7 @@ class AdvertiseTracker {
             .merge()
             .flatMap{_ in self.getTargetView(parent: scrollTarget, classType: T.self)}
             .filter{$0.isVisibleToUser}
+            .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .background))
             .subscribe(onNext: { [weak self] cell in
                 if let eventNameDataSource = self?.eventNameDataSource {
                     let eventName = eventNameDataSource.getEventName(type: adType, tableViewCell: cell)
@@ -132,6 +133,7 @@ class AdvertiseTracker {
             .filter{$0}
             .flatMap{_ in self.getTargetView(parent: scrollTarget, classType: T.self)}
             .filter{$0.isVisibleToUser}
+            .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .background))
             .subscribe(onNext: { [weak self] cell in
                 if let eventNameDataSource = self?.eventNameDataSource {
                     let eventName = eventNameDataSource.getEventName(type: adType, tableViewCell: cell)
