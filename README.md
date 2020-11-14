@@ -20,4 +20,8 @@
 
 이벤트 트래킹은 Rx로 구현되었으며 ViewController의 생명주기에 맞추기 위해 Disposable로 제공하여 ViewController의 DisposeBag을 이용하도록 구현하였습니다.
 
+##
+
+프로젝트 파일은 더미로 클래스 코드는 아래 링크를 이용하세요.
+
 > [클래스 바로가기](https://github.com/magewr/AdvertiseTracker-iOS/blob/main/Advertise-iOS/Advertise-iOS/AdvertiseTracker/AdvertiseTracker.swift)
